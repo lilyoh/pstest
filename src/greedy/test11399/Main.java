@@ -26,6 +26,20 @@ public class Main {
             }
         }
 
+//        int currentTime = 0;
+//        int result = 0;
+//        for(int i = 0; i < minute.length; i++) {
+//            currentTime = currentTime + minute[i];
+//            result = result + currentTime + minute[i];
+//        }
+
+        // before current, minute, after current, result
+        // 0, 1, 1, 1
+        // 1, 2, 3, 4
+        // 3, 3, 6. 10
+        // 6, 3, 9, 19
+        // 9, 4, 13, 32
+
         System.out.println(result);
     }
 }
